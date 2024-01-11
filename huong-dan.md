@@ -1,0 +1,18 @@
+# Hướng dẫn cấu hình Site Docs trên Github Pages
+
+## Configuring Jekyll
+
+## Adding a theme
+### Customizing your theme's CSS
+    https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-css
+
+### Customizing your theme's HTML layout
+    https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-html-layout
+
+# Viết bài
+
+## Front Matter
+    https://jekyllrb.com/docs/front-matter/
+
+## Posts
+    https://jekyllrb.com/docs/posts/

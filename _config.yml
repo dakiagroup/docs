@@ -1,0 +1,28 @@
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#themes
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
+
+# https://jekyllrb.com/docs/permalinks/#global
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# https://jekyllrb.com/docs/pages/#excerpts-for-pages411
+page_excerpts: true
+
+# https://jekyllrb.com/docs/permalinks/#collections
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name
